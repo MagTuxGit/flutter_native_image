@@ -1,3 +1,13 @@
+## [0.0.6+1]
+* Changed constraints to support flutter 2.20.0
+* Fix for missing transparency after crop (thanks to netgfx)
+
+## [0.0.6]
+* Added null-safety support (thanks to dw2kim)
+
+## [0.0.5+3]
+* v2 Embedding (thanks to adithyaxx)
+
 ## [0.0.5+2]
 * Reformatted flutter_native_image.dart
 * Bump version to get the analysis going again
