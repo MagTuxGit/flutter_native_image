@@ -1,3 +1,10 @@
+# Archiving this repository
+This has been something that I was keep pushing away from me. One of my more successful projects. But the issues are piling up, the pull requests don't get reviewed, and the truth is that I don't have the time and heart for this project anymore. Flutter was new back then. I had a really cool project with some friends, but in the end, the project didn't make it, and we never needed this library further developed.
+
+So today I decided that I will make this repository an archive and set it to read-only.
+
+If you're willing to take ownership over this repository, feel free to contact me.
+
 # flutter_native_image
 [![pub package](https://img.shields.io/pub/v/flutter_native_image.svg?label=flutter_native_image&color=blue)](https://pub.dartlang.org/packages/flutter_native_image)
 
@@ -14,7 +21,7 @@ Right now there are a few functions. Please find some examples below.
 Add the following lines to your pubspec.yaml under dependencies
 
 ```yaml
-flutter_native_image: ^0.0.5
+flutter_native_image: ^0.0.6
 ```
 
 ### Compress an image
@@ -58,6 +65,8 @@ Returns a file containing the image cropped with the given dimensions.
 [Alexis Leblond (a-leblond)](https://github.com/a-leblond) the image properties feature.
 
 [Eugene Strokin](https://github.com/strokine) the resize to target height/width feature
+
+[Dae Won Kim](https://github.com/dw2kim) null-safety feature
 
 [![](https://sourcerer.io/fame/btastic/btastic/flutter_native_image/images/0)](https://sourcerer.io/fame/btastic/btastic/flutter_native_image/links/0)[![](https://sourcerer.io/fame/btastic/btastic/flutter_native_image/images/1)](https://sourcerer.io/fame/btastic/btastic/flutter_native_image/links/1)[![](https://sourcerer.io/fame/btastic/btastic/flutter_native_image/images/2)](https://sourcerer.io/fame/btastic/btastic/flutter_native_image/links/2)[![](https://sourcerer.io/fame/btastic/btastic/flutter_native_image/images/3)](https://sourcerer.io/fame/btastic/btastic/flutter_native_image/links/3)[![](https://sourcerer.io/fame/btastic/btastic/flutter_native_image/images/4)](https://sourcerer.io/fame/btastic/btastic/flutter_native_image/links/4)[![](https://sourcerer.io/fame/btastic/btastic/flutter_native_image/images/5)](https://sourcerer.io/fame/btastic/btastic/flutter_native_image/links/5)[![](https://sourcerer.io/fame/btastic/btastic/flutter_native_image/images/6)](https://sourcerer.io/fame/btastic/btastic/flutter_native_image/links/6)[![](https://sourcerer.io/fame/btastic/btastic/flutter_native_image/images/7)](https://sourcerer.io/fame/btastic/btastic/flutter_native_image/links/7)
 
