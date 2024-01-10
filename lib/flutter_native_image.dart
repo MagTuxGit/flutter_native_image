@@ -18,16 +18,18 @@ class FlutterNativeImage {
       {int percentage = 70,
       int quality = 70,
       int targetWidth = 0,
-      int targetHeight = 0}) async {
+      int targetHeight = 0,
+      bool rotate = true}) async {
     var file = await _channel.invokeMethod("compressImage", {
       'file': fileName,
       'quality': quality,
       'percentage': percentage,
       'targetWidth': targetWidth,
-      'targetHeight': targetHeight
+      'targetHeight': targetHeight,
+      'rotate': rotate
     });
 
-    return new File(file);
+    return File(file);
   }
 
   /// Gets the properties of an image
